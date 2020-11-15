@@ -35,7 +35,7 @@ a{text-decoration:none;}
 	color: red;
 }
 #Top {
-	width: 1000px;
+	width: 800px;
 	height: 70px;
 	margin: 0px auto;
 	padding-top: -50px;
@@ -49,7 +49,7 @@ a{text-decoration:none;}
 }
 
 #Top .search {
-	width: 320px;
+	width: 370px;
 	height: 70px;
 	float: left;
 	position: relative;
@@ -107,3 +107,211 @@ a{text-decoration:none;}
 a,img{border:0;}
 body{font:12px "宋体";background:#fff;-webkit-text-size-adjust:100%;}
 a{color:#2d374b;text-decoration:none}
+#Foucs {
+	width: 100%;
+	height: 420px;
+}
+
+#Foucs .FoucsCommon {
+	width: 1200px;
+	height: 420px;
+	margin: 0px auto;
+}
+
+#Foucs .FoucsCommon .Menu {
+	width: 190px;
+	height: 420px;
+	float: left;
+}
+
+#Foucs .FoucsCommon .Menu ul li {
+	height: 69px;
+	color: black;
+	position: relative;
+}
+
+#Foucs .FoucsCommon .Menu .col1 {
+	background: rgb(233,231,220);
+}
+#Foucs .FoucsCommon .Menu .col2{
+	background:white;
+}
+#Foucs .FoucsCommon .Menu ul li h3 {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 40px;
+	text-indent: 20px;
+	cursor: pointer;
+}
+
+#Foucs .FoucsCommon .Menu ul li p {
+	font-size: 12px;
+}
+
+#Foucs .FoucsCommon .Menu ul li p a {
+	color: #000000;
+	padding-left: 20px;
+}
+
+#Foucs .FoucsCommon .Menu ul li p a:hover {
+	color: #f42760;
+}
+
+
+
+#Foucs .Menu ul {
+	position: relative;
+}
+
+#Foucs {
+	width: 100%;
+	height: 419px;
+	overflow: hidden;
+}
+
+#Foucs .FoucsCommon {
+	width: 1200px;
+	height: 419px;
+	margin: 0px auto;
+}
+
+#Foucs .FoucsCommon .flash {
+	width: 820px;
+	height: 419px;
+	background-image: url(../images/five.jpg);
+	background: cover;
+	background-repeat: no-repeat;
+	float: left;
+	position: relative;
+}
+
+#Foucs .FoucsCommon .flash a {
+	width: 71px;
+	height: 71px;
+	display: block;
+	display: none;
+	position: absolute;
+	top: 180px;
+	z-index: 333;
+}
+
+#Foucs .FoucsCommon .flash a.prev {
+	left: -35px;
+	background: url(https://ktscn.github.io/切换按钮.jpg) -71px 0px;
+}
+
+#Foucs .FoucsCommon .flash a.next {
+	right: -35px;
+	background: url(https://ktscn.github.io/切换按钮.jpg) -71px -71px;
+}
+
+#Foucs .FoucsCommon .flash a.prev:hover {
+	background-position: 0px 0px;
+}
+
+#Foucs .FoucsCommon .flash a.next:hover {
+	background-position: 0px -71px;
+}
+
+#Foucs .FoucsCommon .flash .scroll {
+	width: 820px;
+	height: 419px;
+	position: relative;
+	overflow: hidden;
+}
+
+#Foucs .FoucsCommon .flash .scroll img {
+	position: absolute;
+	left: 820px;
+}
+
+#Foucs .FoucsCommon .flash .But {
+	width: 150px;
+	height: 20px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 340px;
+	bottom: 10px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+#Foucs .FoucsCommon .flash .But span {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border-radius: 5px;
+	background: #666;
+}
+
+#Foucs .FoucsCommon .flash .But span.hover {
+	background: #ff0099;
+}
+
+#Foucs .FoucsCommon .news {
+	width: 190px;
+	height: 419px;
+	float: right;
+	position: relative;
+}
+
+#Foucs .FoucsCommon .news .newsback {
+	width: 190px;
+	height: 419px;
+	background: white;
+}
+
+#Foucs .FoucsCommon .news .newsCommon {
+	position: absolute;
+	width: 190px;
+	height: 419px;
+	top: 0px;
+	left: 0px;
+	color: #fff;
+}
+
+#Foucs .FoucsCommon .news .newsCommon h3 {
+	height: 43px;
+	background: rgb(233,231,220);
+	font-size: 14px;
+	color: black;
+	line-height: 43px;
+	text-indent: 20px;
+	font-family: "宋体";
+	font-weight: 700;
+	cursor: pointer;
+}
+
+#Foucs .FoucsCommon .news .newsCommon ul li {
+	font-size: 12px;
+	color: #000000;
+	font-family: "å¾®è½¯é›…é»‘";
+	line-height: 30px;
+}
+
+#Foucs .FoucsCommon .news .newsCommon ul {
+	padding: 10px 10px 15px 10px;
+}
+
+#Foucs .FoucsCommon .news .newsCommon ul li a {
+	color: #000000;
+}
+
+#Foucs .FoucsCommon .news .newsCommon ul li a:hover {
+	color: red;
+	font-size: 13px;
+}
+
+#Foucs .FoucsCommon .news .newsCommon ul li a font {
+	color: red;
+}
+
+#Foucs .FoucsCommon .news .newsCommon ul li a.first {
+	color: red;
+}
+
+#Foucs .FoucsCommon .news .Datatx ul li {
+	background: white;
+	margin-bottom: 5px;
+	text-indent: 3px;
+}
