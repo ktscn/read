@@ -197,12 +197,12 @@ a{color:#2d374b;text-decoration:none}
 
 #Foucs .FoucsCommon .flash a.prev {
 	left: -35px;
-	background: url(https://ktscn.github.io/切换按钮.jpg) -71px 0px;
+	background: url(https://ktscn.github.io/切换按钮.png) -71px 0px;
 }
 
 #Foucs .FoucsCommon .flash a.next {
 	right: -35px;
-	background: url(https://ktscn.github.io/切换按钮.jpg) -71px -71px;
+	background: url(https://ktscn.github.io/切换按钮.png) -71px -71px;
 }
 
 #Foucs .FoucsCommon .flash a.prev:hover {
