@@ -34,6 +34,65 @@ a{text-decoration:none;}
 .user a:hover{
 	color: red;
 }
+#Top {
+	width: 1000px;
+	height: 70px;
+	margin: 0px auto;
+	padding-top: -50px;
+	margin-top: 10px;
+}
+
+#Top .logo {
+	width: 215px;
+	height: 70px;
+	float: left;
+}
+
+#Top .search {
+	width: 320px;
+	height: 70px;
+	float: left;
+	position: relative;
+}
+
+#Top .search input .txt {
+	width: 310px;
+	height: 38px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	outline: none;
+}
+
+#Top .search input .but {
+	width: 42px;
+	height: 40px;
+	border: 0px;	
+	position: absolute;
+	left: 312px;
+	top: 0px;
+}
+.searchTxt {
+	float: left;
+	width: 452px;
+	height: 40px;
+	border: 2px solid #d3d3d3;
+	position: relative;
+	z-index: 20;
+	background: #fff;
+}
+
+.searchTxt input {
+	float: left;
+	border: 0;
+	background: #fff;
+	color: #333;
+	font: 16px/22px '宋体', sans-serif;
+	width: 300px;
+	height: 30px;
+	margin: 0;
+	outline: medium none;
+	padding: 4px;
+}
 #Logo{width:100%;height:50px; background:#000;top:-50px; }
 #Logo ul{width:1200px; height:50px;margin:0px auto;position:relative; }
 #Logo ul li{ height:50px;list-style-type:none; float:left;
